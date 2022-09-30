@@ -5,20 +5,16 @@ import android.os.Bundle
 import android.util.Log
 import androidx.core.widget.doAfterTextChanged
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.calculator_jch.R
-import com.example.calculator_jch.constants.MyCostants.CM
 import com.example.calculator_jch.constants.MyCostants.KILOMETER
 import com.example.calculator_jch.constants.MyCostants.KM
 import com.example.calculator_jch.constants.MyCostants.M
 import com.example.calculator_jch.constants.MyCostants.METER
-import com.example.calculator_jch.constants.MyCostants.MM
 import com.example.calculator_jch.databinding.ActivityScrLengthMeasurementBinding
-import com.example.calculator_jch.utils.CustomToast
 import com.example.calculator_jch.view.model.Measurements
-import com.example.calculator_jch.view.viewmodel.LengthMeasurementViewMmodel
-import com.example.calculator_jch.view.viewmodel.LengthMeasurementViewModelFactory
+import com.example.calculator_jch.view.viewmodel.length_measurement.LengthMeasurementViewMmodel
+import com.example.calculator_jch.view.viewmodel.length_measurement.LengthMeasurementViewModelFactory
 import com.whirlpool.prodigio_app.view.dialoges.DlgDropDownAll
 
 class ScrLengthMeasurement : AppCompatActivity(), DlgDropDownAll.BottomSheetDlgAllListner {

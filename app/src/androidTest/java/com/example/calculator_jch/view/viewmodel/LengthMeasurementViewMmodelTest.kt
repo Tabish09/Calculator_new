@@ -9,6 +9,7 @@ import com.example.calculator_jch.constants.MyCostants.M
 import com.example.calculator_jch.constants.MyCostants.METER
 import com.example.calculator_jch.constants.MyCostants.MILIMETER
 import com.example.calculator_jch.view.model.Measurements
+import com.example.calculator_jch.view.viewmodel.length_measurement.LengthMeasurementViewMmodel
 import junit.framework.TestCase
 import org.junit.Test
 import com.google.common.truth.Truth.assertThat
@@ -38,7 +39,7 @@ class LengthMeasurementViewMmodelTest : TestCase() {
             to_measurement
         )
         Log.d(TAG, "testKilometerToMeter : ${result}")
-        assertThat(result).isEqualTo("4000.0")
+        assertThat(result).isEqualTo("5000.0")
     }
 
     @SuppressLint("CheckResult")
@@ -54,7 +55,7 @@ class LengthMeasurementViewMmodelTest : TestCase() {
             to_measurement
         )
         Log.d(TAG, "testCentimeterToMilimeter : ${result}")
-        assertThat(result).isEqualTo("500.0")
+        assertThat(result).isEqualTo("1000.0")
     }
 
 }
