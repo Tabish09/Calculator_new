@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_curve_border_line_black_grey.xml" value="0.159" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.159" />
+        <entry key="app/src/main/res/drawable/rounded_dialog.xml" value="0.159" />
+        <entry key="app/src/main/res/layout/activity_scr_calculator.xml" value="0.37912902832031253" />
+        <entry key="app/src/main/res/layout/activity_scr_calculator_two.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/activity_scr_length_measurement.xml" value="0.2523773193359375" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.39230499267578134" />
+        <entry key="app/src/main/res/layout/dlg_drop_down_all.xml" value="0.18640103016460075" />
+        <entry key="app/src/main/res/layout/item_drop_down_options.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
+</project>

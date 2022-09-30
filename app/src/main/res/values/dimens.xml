@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calculator_buttoon_height">100dp</dimen>
+    <dimen name="cal_btm_left">2dp</dimen>
+    <dimen name="cal_btn_start">2dp</dimen>
+</resources>
